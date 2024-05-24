@@ -1,0 +1,40 @@
+Nástroj - ASCII-art
+
+Nástroj podporuje načítání obrázků v běžných formátech (png,jpg,jpeg). S obrázky je potom možno pracovat pomocí filtrů,
+které s daným obrázkem nějak manipulují.
+
+Plánované filtry:
+	-Změna jasu
+		-procentuální
+		-hrubá (flat value)
+	-Reflexe
+		-vertikální
+		-horizontální
+	-Negativ
+	-Rozmazání
+	-Oříznutí
+	(+ možná další)
+
+Dále je možné filtry řetězit (chainovat) - takto vznikne nový filtr, který postupně aplikuje všechny filtry, ze kterých se skládá.
+
+Nástroj je možné konfigurovat z konfiguračního souboru.
+Lze nastavit:
+	-Množinu ASCII znaků, které budou přiřazeny jednotlivým odstínům šedi, konverze je prováděna automaticky
+	-Rovnici, která počítá poměr jednotlivých RGB kanálů při konverzi z RGB do grayscale
+	-Obrázky, se kterými bude aplikace pracovat
+	-Filtry, které budou defaultně aplikovány na obrázky (lze aplikovat jednotlivě nebo pro všechny)
+	-Výstupní soubor, do kterého se bude posílat ASCII-art
+	(+ možná další)
+
+Po zapnutí aplikace se uživateli zobrazí GUI, kde uvidí původní obrázek v grayscale v jednom okně a ve druhém okně uvidí vykreslenou
+ASCII podobu obrázku (musí se vejít na obrazovku, takže se jedná o "aproximaci" s malým fontem). 
+Pomocí různých kláves se dá toto grafické rozhraní ovládat.
+Možnosti ovládání:
+	-Změna obrázku 			- Aplikace zobrazí na obou oknech následující/předchozí obrázek s příslušným ASCII vykreslením
+	-Výpis do konzole/souboru 	- po stisknutí klávesy se obrázek v textovém formátu vypíše do konzole/specifikovaného souboru
+	-Živá aplikace filtrů		- ke každému filtru je namapována klávesa s nějakou předem specifikovanou hodnotou filtru (např.
+					  zvýšení jasu o 10%), pomocí těchto kláves se potom dá živě obrázek editovat (po aplikaci filtru
+					  se filtr ihned graficky projeví v GUI). Uživatel takto může s obrázkem pracovat a chtěný výsledek
+					  si pomocí výpisu uložit)
+	-Spuštění prezentace		- po stisknutí klávesy se zapne prezentace a po časovém intervalu se postupně budou přepínat obrázky,
+					  po posledním obrázku zase následuje první, opětovným stisknutím klávesy dojde k zastavení prezentace

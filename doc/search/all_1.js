@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['a_20given_20factor_0',['Resizes image by a given factor',['../class_c_resize.html#autotoc_md11',1,'']]],
+  ['abstract_20parent_20class_1',['Abstract parent class',['../class_c_filter.html#autotoc_md5',1,'']]],
+  ['addalphabet_2',['addAlphabet',['../class_c_data.html#a743a53e97307ce4f626a373de80508f3',1,'CData']]],
+  ['addchain_3',['addChain',['../class_c_filter.html#add4a9e139fc86e7d2c5506a1ad8c24ca',1,'CFilter']]],
+  ['adddefaultfilters_4',['addDefaultFilters',['../class_c_data.html#a1fa9135fc6f45310bd36291abf57c2b0',1,'CData']]],
+  ['addequation_5',['addEquation',['../class_c_data.html#aff47fd0c505cd9767868da86439787b9',1,'CData']]],
+  ['addimage_6',['addImage',['../class_c_data.html#a9686d77482853e774f8865a5e71824a3',1,'CData']]],
+  ['addoutput_7',['addOutput',['../class_c_data.html#a7a20f7a08da08dd60d4f236ec725b044',1,'CData']]],
+  ['addspecificfilters_8',['addSpecificFilters',['../class_c_data.html#ad3c24b998d4d3f2ab2e182080ee1d95a',1,'CData']]],
+  ['allfilter_9',['allFilter',['../class_c_data.html#a80ea5fd7b05a8c944c505053e88448b7',1,'CData']]],
+  ['alltogreyscale_10',['allToGreyscale',['../class_c_data.html#a26b90fe0b516078d32a7da94f9399300',1,'CData']]],
+  ['along_20x_20axis_11',['Reflects image along x axis',['../class_c_reflection_vertical.html#autotoc_md10',1,'']]],
+  ['along_20y_20axis_12',['Reflects image along y axis',['../class_c_reflection_horizontal.html#autotoc_md9',1,'']]],
+  ['and_20handles_20the_20contents_20of_20config_20file_13',['Parses and handles the contents of config file',['../class_c_loader.html#autotoc_md7',1,'']]],
+  ['and_20image_20rendering_14',['Handles GUI and image rendering',['../class_c_app.html#autotoc_md0',1,'']]],
+  ['and_20pre_20processing_15',['Handles data loading and pre-processing',['../class_c_data.html#autotoc_md3',1,'']]],
+  ['anything_20by_20itself_16',['Doesn&apos;t do anything by itself',['../class_c_empty_filter.html#autotoc_md4',1,'']]],
+  ['applies_20negative_20filter_20to_20the_20image_17',['Applies negative filter to the image',['../class_c_negative.html#autotoc_md8',1,'']]],
+  ['applyconvolution_18',['applyConvolution',['../class_c_kernel.html#a56bc27fa2de5d93243c23ea38d0988c2',1,'CKernel']]],
+  ['around_20center_19',['Rotates image around center',['../class_c_rotation.html#autotoc_md12',1,'']]],
+  ['atlas_20that_20speeds_20up_20text_20rendering_20',['Glyph atlas that speeds up text rendering',['../class_c_atlas.html#autotoc_md1',1,'']]],
+  ['axis_21',['Axis',['../class_c_reflection_vertical.html#autotoc_md10',1,'Reflects image along x axis'],['../class_c_reflection_horizontal.html#autotoc_md9',1,'Reflects image along y axis']]]
+];

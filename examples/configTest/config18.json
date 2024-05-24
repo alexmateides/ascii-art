@@ -1,0 +1,48 @@
+{
+  "alphabet":"@#%*+=-:. ",
+  "img_folder":"./assets/pictures/",
+  "img_paths": [
+    "saturn.png",
+    "vader.png",
+    "chad_small.png",
+    "buno.png",
+    "sanctus_kalvoda.jpg"
+  ],
+
+  "equation": [
+    0.299,
+    0.587,
+    0.114
+  ],
+
+  "output_path":"./out.txt",
+
+  "defaultFilters":{
+    "brightness": ["A",10],
+    "rotation": 90,
+    "resize": 1.2,
+    "blur": 4
+  },
+
+  "filters": {
+    "sanctus_kalvoda.jpg":[
+      {
+        "filterName": "resize",
+        "wrong attribute name": 1.5
+      },
+      {
+        "filterName":"negative"
+      },
+      {
+        "filterName":"blur",
+        "strength": 5
+      }
+    ],
+    "saturn.png": [
+      {
+      "filterName": "resize",
+      "factor": 0.8
+      }
+    ]
+  }
+}

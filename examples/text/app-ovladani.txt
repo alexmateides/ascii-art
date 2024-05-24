@@ -1,0 +1,65 @@
+Stručný návod k ovládání aplikace:
+
+CONFIG
+---------
+config.json musí mít specifický formát, který lze vidět v testovacích datech (config1.json) nebo v adresáři (config.json)
+
+alphabet: 	množina ASCII znaků pro vykreslení
+img_folder:	path do složky s obrázky
+img_paths:	názvy obrázků uvnitř složky
+equation:	rovnice pro poměr RGB
+output_path:	path do výstupového souboru
+defaultFilters:	výchozí filtry ovládané z GUI
+	{
+	brightness: 	[A/R, num]
+	rotation:	num (degrees)
+	resize:		num (0+)
+	blur:		num (0+)
+	}
+filters:	filtry aplikované v preproccessingu
+	{
+	all: 		[dílčí filtry]	- aplikované pro všechny obrázky
+	filename:	[dílčí filtry]	- aplikované pro daný obrázek
+	}
+
+dílčí filtry:
+	{
+	filterName: jméno filtru
+	(případné argumenty)
+	}
+
+	filter:			jméno, 			argumenty
+	resize:			resize,			factor
+	blur:			blur,			strength
+	rotation:		rotation,		angle
+	reflectionVertical:	reflectionVertical,	(NONE)
+	reflectionHorizontal:	reflectionHorizontal,	(NONE)
+	negative:		negative		(NONE)
+	brigthness:		brightness		type (A/R), value (int/float)
+
+POZOR! 	
+při nedodržení formátu configu je zaručeno pouze to, že nedojde k nekontrolovanému pádu programu
+může dojít k nečekanému chování při aplikaci filtrů	
+
+
+
+OVLÁDÁNÍ
+---------
+GUI:
+[LEFT]/[RIGHT]	- přepínání obrázku
+[SPACE]		- spuštění/zastavení prezentace
+[K]		- výpis aktuálního obrázku do konzole
+[L]		- výpis všech obrázků do konzole
+[O]		- výpis aktuálního obrázku do souboru
+[P]		- výpis všech obrázků do souboru
+
+FILTRY:
+[UP]/[DOWN]	- změna jasu
+[N]		- negativ
+[R]		- překlopení okolo osy Y
+[T]		- překlopení okolo osy X
+[D]/[F]		- změna velikosti (škálování)
+[G]/[H]		- otočení
+[C]		- rozmazání
+
+

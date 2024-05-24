@@ -1,0 +1,12 @@
+{
+  "alphabet":"@#%*+=-:. ",
+  "img_paths": [
+    "./pictures/chad_small.png"
+  ],
+  "equation": [
+    0.299,
+    0.587,
+    0.114,
+    "randomString"
+  ]
+}

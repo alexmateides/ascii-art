@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['inversecopy_0',['inverseCopy',['../class_c_brightness.html#a4b95a8bdb6a595a5cc425d8f6af3161d',1,'CBrightness::inverseCopy()'],['../class_c_filter.html#abf6e3558a23d7667f896bf899beb602b',1,'CFilter::inverseCopy()'],['../class_c_kernel.html#a9fd8c451a0e0f906292624d4c0f0670c',1,'CKernel::inverseCopy()'],['../class_c_negative.html#a16418ace64923278841b420d586a154f',1,'CNegative::inverseCopy()'],['../class_c_reflection_horizontal.html#a9c582fcb2054cad6fb754913a65aad53',1,'CReflectionHorizontal::inverseCopy()'],['../class_c_reflection_vertical.html#a7a12b0f48f9044fee423b7d871a3b0c1',1,'CReflectionVertical::inverseCopy()'],['../class_c_resize.html#a9952c445032a74a7286d68cd94277d8a',1,'CResize::inverseCopy()'],['../class_c_rotation.html#a6622affe3c23ac8fb3ddd94136e6635b',1,'CRotation::inverseCopy()']]]
+];

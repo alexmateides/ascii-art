@@ -1,0 +1,10 @@
+{
+  "alphabet":"@#%*+=-:. ",
+  "img_paths": [
+    "./pictures/chad_small.png"
+  ],
+  "equation": [
+    0.299,
+    0.587
+  ]
+}

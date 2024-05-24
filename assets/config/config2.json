@@ -1,0 +1,50 @@
+{
+  "alphabet":"@#%*+=-:. ",
+  "img_folder":"./assets/pictures/",
+  "img_paths": [
+    "liberty.png",
+    "neo.png",
+    "ntk.png"
+  ],
+
+  "equation": [
+    0.299,
+    0.587,
+    0.114
+  ],
+
+  "output_path":"./out.txt",
+
+  "defaultFilters":{
+    "brightness": ["R",1.1],
+    "rotation": 90,
+    "resize": 1.2,
+    "blur": 1
+  },
+
+  "filters": {
+    "all":[
+      {
+        "filterName": "blur",
+        "strength": 1
+      }
+    ],
+    "neo.png":[
+      {
+        "filterName": "rotation",
+        "angle": 90
+      }
+    ],
+    "liberty.png": [
+      {
+      "filterName": "resize",
+      "factor": 1.5
+      }
+    ],
+    "ntk.png": [
+      {
+        "filterName": "reflectionVertical"
+      }
+    ]
+  }
+}
