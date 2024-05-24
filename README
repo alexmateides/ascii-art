@@ -1,0 +1,7 @@
+This is my semestral project, that I did for my Programming and Algorithmics 2 (PA2) course at FIT CTU.
+
+The objective was to develop an application that converts images into ASCII-art form. The application also had to support some basic functions like switching images, presentation mode and most importantly image filters.
+
+The app was developed with the help of SDL2 for graphics and Nlohmann's JSON library for config parsing.
+
+Currently supported functionalities and documentation (currently only in Czech) can be found in ./examples/text
