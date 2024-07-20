@@ -16,16 +16,16 @@ LIBS=`sdl2-config --libs` -L/usr/include/SDL2 -lSDL2_image -lSDL2_ttf -lSDL2_gfx
 all: clean compile run clean
 
 run:
-	./mateial1 "./assets/config/config1.json"
+	./ascii-art "./assets/config/config1.json"
 
 doc:
 
 compile: $(OBJ)
-	$(CXX) $(CXXFLAGS) $(ASAN_FLAGS) $(LDFLAGS) $^ $(LIBS) $(ASAN_LIBS) -o mateial1
-	#$(CXX) $(CXXFLAGS) $(LDFLAGS) $^ $(LIBS) -o mateial1
+	$(CXX) $(CXXFLAGS) $(ASAN_FLAGS) $(LDFLAGS) $^ $(LIBS) $(ASAN_LIBS) -o ascii-art
+	#$(CXX) $(CXXFLAGS) $(LDFLAGS) $^ $(LIBS) -o ascii-art
 
 clean:
-	#rm -f .\src\*.o mateial1
-	rm -f ./src/*.o mateial1 out.txt
+	#rm -f .\src\*.o ascii-art
+	rm -f ./src/*.o ascii-art out.txt
 
 .PHONY: clean
