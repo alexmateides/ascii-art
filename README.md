@@ -2,14 +2,47 @@
 
 ![alt text](https://github.com/alexmateides/ascii-art/blob/main/examples/pic2.png) </br>
 
-#
+## Table of contents
+<details>
+  <summary></summary>
+  <ol>
+    <li>
+      <a href="#about">About</a>
+    </li>
+    <li>
+      <a href="#implemented-features">Implemented features</a>
+      <ul>
+        <li><a href="#loading">Loading</a></li>
+        <li><a href="#filters">Filters</a></li>
+        <li><a href="#image-output">Image output</a></li>
+        <li><a href="#gui-controls">GUI controls</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#deployment">Deployment</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#compile-and-launch">Compile and launch</a></li>
+      </ul>
+    </li>
+    <li><a href="#controls">Controls</a></li>
+    <li><a href="#config">Config</a></li>
+    <li><a href="#classes-and-oop">Classes and OOP</a></li>
+    <li><a href="#files">Files</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
+
+## About
 I developed this application as a semestral project for my Programming and Algorithmics 2 (PA2) course at FIT CTU.
 
 The objective was to develop an application that converts images into ASCII-art form. The application also had to
 support some basic functions like switching images, presentation mode and most importantly image filters.
 
 The app was developed with the help of SDL2 for graphics and Nlohmann's JSON library for config parsing.
+
 
 ## Implemented features
 
@@ -45,8 +78,9 @@ The app was developed with the help of SDL2 for graphics and Nlohmann's JSON lib
 - [X] **Presenation mode**
 - [X] **Filter application**
 
+## Deployment
 
-## Installation
+### Installation
 
 **0. Install SDL2**
 
@@ -60,7 +94,7 @@ sudo apt-get install libsdl2-dev libsdl2-ttf-dev libsdl2-dev
 git clone https://github.com/alexmateides/ascii-art
 ```
 
-## Compile and launch
+### Compile and launch
 
 **0. Change WD**
 
@@ -225,3 +259,35 @@ Abstract class that handles image filtering.
 
 ### CApp
 Is responsible for GUI (SDL2 based). Allows the user to apply additional filters and view their effects. It also allows the user to send the output in ASCII text form to either console or file. There is also a presentation mod that automatically cycles through the images.
+
+## Files
+
+```md
+ascii-art
+│
+├── assets                  # Configuration and input files
+│   ├── config              # Configuration files
+│   ├── fonts               # Different fonts for GUI rendering
+│   └── pictures            # Pictures directory
+│
+├── doc                     # Doxygen documentation
+│
+├── examples                # Sample files and ASCII results
+│   └── configTest          # Unit tests for syntax checking
+│
+├── libs                    # Nlohmann's JSON library
+│
+├── src                     # Source code with header ind implementation files
+│
+├── LICENSE                 # Open source license
+│
+├── Makefile                # Instructions for program compilation and execution
+│
+└── README.md               # This file
+```
+
+## License
+Distributed under the MIT License. See LICENSE for more information.
+
+## Contact
+**Alexander Mateides** - alex.mateides@gmail.com - [LinkedIN](https://www.linkedin.com/in/alexander-mateides-138136285/)
