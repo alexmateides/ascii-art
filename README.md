@@ -209,7 +209,6 @@ This file needs to have a specific format that can be seen in `ascii-art/assets/
 ```
 
 ### Filter syntax
-Filter syntax is as follows </br>
 ```
 "imgName":
 [         
@@ -223,7 +222,7 @@ Filter syntax is as follows </br>
     }
 ]
 ```
-- If you use "all" is imgName, the filters will be applied to all images </br>
+- If you use **"all"** as imgName, the filters will be applied to all images </br>
 - Filters can have 0-2 arguments
 
 ### Filter argument table
@@ -277,7 +276,7 @@ ascii-art
 │
 ├── libs                    # Nlohmann's JSON library
 │
-├── src                     # Source code with header ind implementation files
+├── src                     # Source code with header and implementation files
 │
 ├── LICENSE                 # Open source license
 │
